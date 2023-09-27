@@ -1,4 +1,4 @@
-import "./portfolio.css";
+import "./certifications.css";
 
 import IMG1 from "../../assets/img1.png";
 import IMG2 from "../../assets/img2.png";
@@ -6,15 +6,10 @@ import IMG3 from "../../assets/img3.png";
 import IMG4 from "../../assets/img4.png";
 import IMG5 from "../../assets/img5.png";
 import IMG6 from "../../assets/img6.png";
-import IMG7 from "../../assets/img7.png";
-import IMG8 from "../../assets/img8.png";
-import IMG9 from "../../assets/img9.png";
-
-
 import React from "react";
 
 // Función Portfolio
-const Portfolio = () => {
+const Certifications = () => {
   const soloProjects = [
     {
       id: 1,
@@ -42,20 +37,11 @@ const Portfolio = () => {
       img: IMG3,
       description: "Marketplace NFT en proceso, actualmente en desarrollo durante el curso de React de Coderhouse",
       technologies: "React | Vite | TypeScript",
-      link: "https://ecommerce-react-five-delta.vercel.app/",
-      github: "https://github.com/leofiorotto/ecommerce-react",
+      link: "https://leofiorotto.github.io/Entrega1-React-Fiorotto/",
+      github: "https://github.com/leofiorotto/Entrega1-React-Fiorotto",
     },
     {
       id: 4,
-      title: "Sunnyside agency",
-      img: IMG9,
-      description: "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.  ",
-      technologies: "React | Vite | TypeScript",
-      link: "https://leofiorotto.github.io/sunnyside-landing/",
-      github: "https://github.com/leofiorotto/sunnyside-landing",
-    },
-    {
-      id: 5,
       title: "Calculadora",
       img: IMG4,
       description:
@@ -65,7 +51,7 @@ const Portfolio = () => {
       github: "https://github.com/leofiorotto/calculadora",
     },
     {
-      id: 6,
+      id: 5,
       title: "Lista de Tareas",
       img: IMG5,
       description:
@@ -75,7 +61,7 @@ const Portfolio = () => {
       github: "https://github.com/leofiorotto/listaTareas",
     },
     {
-      id: 7,
+      id: 6,
       title: "Contador de Clicks",
       img: IMG6,
       description:
@@ -83,26 +69,6 @@ const Portfolio = () => {
       technologies: "HTML | SCSS | JavaScript",
       link: "https://contador-blush-kappa.vercel.app/",
       github: "https://github.com/leofiorotto/contador",
-    },
-    {
-      id: 8,
-      title: "Desafio Frontend Mentor",
-      img: IMG7,
-      description:
-      "Los desafíos de Frontend Mentor lo ayudan a mejorar las habilidades mediante la creación de proyectos realistas.",
-      technologies: "HTML | SCSS | JavaScript",
-      link: "https://leofiorotto.github.io/Frontend-Mentor1/",
-      github: "https://github.com/leofiorotto/Frontend-Mentor1",
-    },
-    {
-      id: 9,
-      title: "Marketplace",
-      img: IMG8,
-      description:
-        "Marketplace para curso de JS en Coderhouse",
-      technologies: "HTML | SCSS | JavaScript",
-      link: "https://leofiorotto.github.io/Entrega3-JS-Fiorotto/",
-      github: "https://github.com/leofiorotto/Entrega3-JS-Fiorotto",
     },
   ];
 
@@ -147,4 +113,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Certifications;
