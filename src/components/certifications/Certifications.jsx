@@ -2,8 +2,9 @@ import "./certifications.css";
 
 import IMG1 from "../../assets/DesarrolloWeb.png";
 import IMG2 from "../../assets/JS.png";
-import IMG3 from "../../assets/img3.png";
-import IMG4 from "../../assets/img4.png";
+import IMG3 from "../../assets/react.png";
+import IMG4 from "../../assets/backend.png";
+import IMG5 from "../../assets/frontend.png"
 import React from "react";
 
 // Función Portfolio
@@ -21,17 +22,17 @@ const Certifications = () => {
     },
     {
       id: 3,
-      img: IMG2,
+      img: IMG3,
       link: "https://www.coderhouse.com/certificados/651149f2dfa4926652b7535a?lang",
     },
     {
       id: 4,
-      img: IMG2,
+      img: IMG4,
       link: "https://calculadora-jet-kappa.vercel.app/",
     },
     {
       id: 5,
-      img: IMG2,
+      img: IMG5,
       link: "https://calculadora-jet-kappa.vercel.app/",
     },
     {
