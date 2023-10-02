@@ -28,17 +28,17 @@ const Certifications = () => {
     {
       id: 4,
       img: IMG4,
-      link: "https://calculadora-jet-kappa.vercel.app/",
+      // link: "https://calculadora-jet-kappa.vercel.app/",
     },
     {
       id: 5,
       img: IMG5,
-      link: "https://calculadora-jet-kappa.vercel.app/",
+      // link: "https://calculadora-jet-kappa.vercel.app/",
     },
     {
       id: 5,
       img: IMG2,
-      link: "https://calculadora-jet-kappa.vercel.app/",
+      // link: "https://calculadora-jet-kappa.vercel.app/",
     },
     // {
     //   id: 5,
@@ -71,9 +71,11 @@ const Certifications = () => {
       <div className="container certifications__container">
         {soloProjects.map((pro) => (
           <article className="certifications__item" key={pro.id}>
-            <div className="certifications__item-image">
-              <img className="img-certificactions" src={pro.img} alt={pro.title} />
-            </div>
+            <a href={pro.link}>
+              <div className="certifications__item-image">
+                <img className="img-certificactions" src={pro.img} alt={pro.title} />
+              </div>
+            </a>
             <div className="certifications__item-content">
               <h3>{pro.title}</h3>
               <p>{pro.description}</p>

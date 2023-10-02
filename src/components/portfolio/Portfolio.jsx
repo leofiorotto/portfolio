@@ -9,6 +9,7 @@ import IMG6 from "../../assets/img6.png";
 import IMG7 from "../../assets/img7.png";
 import IMG8 from "../../assets/img8.png";
 import IMG9 from "../../assets/img9.png";
+import IMG10 from "../../assets/img10.png";
 
 
 import React from "react";
@@ -49,40 +50,20 @@ const Portfolio = () => {
       id: 4,
       title: "Sunnyside agency",
       img: IMG9,
-      description: "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.  ",
+      description: "Los desafíos de Frontend Mentor lo ayudan a mejorar las habilidades mediante la creación de proyectos realistas.",
       technologies: "React | Vite | TypeScript",
       link: "https://leofiorotto.github.io/sunnyside-landing/",
       github: "https://github.com/leofiorotto/sunnyside-landing",
     },
     {
       id: 5,
-      title: "Calculadora",
-      img: IMG4,
+      title: "Consultoria",
+      img: IMG10,
       description:
-        "Calculadora creada como parte de mi proceso de aprendizaje",
-      technologies: "React | CSS",
-      link: "https://calculadora-jet-kappa.vercel.app/",
-      github: "https://github.com/leofiorotto/calculadora",
-    },
-    {
-      id: 6,
-      title: "Lista de Tareas",
-      img: IMG5,
-      description:
-        "Lista de tareas para que nunca olvides lo que tienes que hacer",
-      technologies: "React | CSS",
-      link: "https://lista-tareas-seven.vercel.app/",
-      github: "https://github.com/leofiorotto/listaTareas",
-    },
-    {
-      id: 7,
-      title: "Contador de Clicks",
-      img: IMG6,
-      description:
-        "Comencé este proyecto en React para aprender sobre hooks y crear una interfaz dinámica",
-      technologies: "HTML | SCSS | JavaScript",
-      link: "https://contador-blush-kappa.vercel.app/",
-      github: "https://github.com/leofiorotto/contador",
+        "Empresa Biztec Solutions - Consultoria de IT. Proyecto en conjunto con el equipo de Biztec Solutions",
+      technologies: "Astro | Tailwind",
+      link: "https://consultory.vercel.app/",
+      github: "https://github.com/leofiorotto/consultory",
     },
     {
       id: 8,
@@ -101,9 +82,30 @@ const Portfolio = () => {
       description:
         "Marketplace para curso de JS en Coderhouse",
       technologies: "HTML | SCSS | JavaScript",
-      link: "https://leofiorotto.github.io/Entrega3-JS-Fiorotto/",
-      github: "https://github.com/leofiorotto/Entrega3-JS-Fiorotto",
+      link: "https://leofiorotto.github.io/Final-JS-Fiorotto/",
+      github: "https://github.com/leofiorotto/Final-JS-Fiorotto",
     },
+    {
+      id: 6,
+      title: "Lista de Tareas",
+      img: IMG5,
+      description:
+        "Lista de tareas para que nunca olvides lo que tienes que hacer",
+      technologies: "React | CSS",
+      link: "https://lista-tareas-seven.vercel.app/",
+      github: "https://github.com/leofiorotto/listaTareas",
+    },
+    {
+      id: 10,
+      title: "Calculadora",
+      img: IMG4,
+      description:
+        "Calculadora creada como parte de mi proceso de aprendizaje",
+      technologies: "React | CSS",
+      link: "https://calculadora-jet-kappa.vercel.app/",
+      github: "https://github.com/leofiorotto/calculadora",
+    },
+
   ];
 
   return (
@@ -115,7 +117,7 @@ const Portfolio = () => {
         {soloProjects.map((pro) => (
           <article className="portfolio__item" key={pro.id}>
             <div className="portfolio__item-image">
-              <img src={pro.img} alt={pro.title} />
+              <img src={pro.img} alt={pro.title} className="img_item" />
             </div>
             <div className="portfolio__item-content">
               <h3>{pro.title}</h3>
