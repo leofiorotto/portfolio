@@ -3,7 +3,6 @@ import "./certifications.css";
 import IMG1 from "../../assets/DesarrolloWeb.png";
 import IMG2 from "../../assets/JS.png";
 import IMG3 from "../../assets/react.png";
-import IMG4 from "../../assets/backend.png";
 import IMG5 from "../../assets/frontend.png"
 import React from "react";
 
@@ -25,41 +24,12 @@ const Certifications = () => {
       img: IMG3,
       link: "https://www.coderhouse.com/certificados/651149f2dfa4926652b7535a?lang",
     },
+  
     {
       id: 4,
-      img: IMG4,
-      // link: "https://calculadora-jet-kappa.vercel.app/",
-    },
-    {
-      id: 5,
       img: IMG5,
-      // link: "https://calculadora-jet-kappa.vercel.app/",
     },
-    {
-      id: 5,
-      img: IMG2,
-      // link: "https://calculadora-jet-kappa.vercel.app/",
-    },
-    // {
-    //   id: 5,
-    //   title: "Lista de Tareas",
-    //   img: IMG5,
-    //   description:
-    //     "Lista de tareas para que nunca olvides lo que tienes que hacer",
-    //   technologies: "React | CSS",
-    //   link: "https://lista-tareas-seven.vercel.app/",
-    //   github: "https://github.com/leofiorotto/listaTareas",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Contador de Clicks",
-    //   img: IMG6,
-    //   description:
-    //     "Comencé este proyecto en React para aprender sobre hooks y crear una interfaz dinámica",
-    //   technologies: "HTML | SCSS | JavaScript",
-    //   link: "https://contador-blush-kappa.vercel.app/",
-    //   github: "https://github.com/leofiorotto/contador",
-    // },
+   
   ];
 
   return (
