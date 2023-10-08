@@ -10,7 +10,8 @@ import IMG7 from "../../assets/img7.png";
 import IMG8 from "../../assets/img8.png";
 import IMG9 from "../../assets/img9.png";
 import IMG10 from "../../assets/img10.png";
-
+import IMG11 from "../../assets/img11.png";
+import IMG12 from "../../assets/img12.png";
 
 import React from "react";
 
@@ -26,16 +27,6 @@ const Portfolio = () => {
       technologies: "Astro | Tailwind",
       link: "https://tesla-landing-indol.vercel.app/",
       github: "https://github.com/leofiorotto/tesla-landing",
-    },
-    {
-      id: 2,
-      title: "E-commerce Digital-Coder",
-      img: IMG2,
-      description:
-        "E-commerce realizado durante el curso de Desarrollo Web de Coderhouse",
-      technologies: "HTML | CSS | Bootstrap | SASS",
-      link: "https://leofiorotto.github.io/EntregaFinal-Fiorotto/",
-      github: "https://github.com/leofiorotto/EntregaFinal-Fiorotto",
     },
     {
       id: 3,
@@ -55,16 +46,7 @@ const Portfolio = () => {
       link: "https://leofiorotto.github.io/sunnyside-landing/",
       github: "https://github.com/leofiorotto/sunnyside-landing",
     },
-    {
-      id: 5,
-      title: "Consultoria",
-      img: IMG10,
-      description:
-        "Empresa Biztec Solutions - Consultoria de IT. Proyecto en conjunto con el equipo de Biztec Solutions",
-      technologies: "Astro | Tailwind",
-      link: "https://consultory.vercel.app/",
-      github: "https://github.com/leofiorotto/consultory",
-    },
+
     {
       id: 8,
       title: "Desafio Frontend Mentor",
@@ -72,18 +54,28 @@ const Portfolio = () => {
       description:
       "Los desafíos de Frontend Mentor lo ayudan a mejorar las habilidades mediante la creación de proyectos realistas.",
       technologies: "HTML | SCSS | JavaScript",
-      link: "https://leofiorotto.github.io/Frontend-Mentor1/",
-      github: "https://github.com/leofiorotto/Frontend-Mentor1",
+      link: "https://leofiorotto.github.io/web3-digital-diary/",
+      github: "https://github.com/leofiorotto/web3-digital-diary",
+    },
+    {
+      id: 10,
+      title: "Huddle",
+      img: IMG12,
+      description:
+        "Empresa dedicada a crear equipos de desarrollo",
+      technologies: "React | CSS",
+      link: "https://leofiorotto.github.io/huddle/",
+      github: "https://github.com/leofiorotto/huddle",
     },
     {
       id: 9,
-      title: "Marketplace",
-      img: IMG8,
+      title: "Componente de tarjetas de precios",
+      img: IMG11,
       description:
-        "Marketplace para curso de JS en Coderhouse",
+        "Componente reutilizable para mostrar precios de productos",
       technologies: "HTML | SCSS | JavaScript",
-      link: "https://leofiorotto.github.io/Final-JS-Fiorotto/",
-      github: "https://github.com/leofiorotto/Final-JS-Fiorotto",
+      link: "https://leofiorotto.github.io/price-card-component/",
+      github: "https://github.com/leofiorotto/price-card-component",
     },
     {
       id: 6,
@@ -95,15 +87,26 @@ const Portfolio = () => {
       link: "https://lista-tareas-seven.vercel.app/",
       github: "https://github.com/leofiorotto/listaTareas",
     },
+
     {
-      id: 10,
-      title: "Calculadora",
-      img: IMG4,
+      id: 2,
+      title: "E-commerce Digital-Coder",
+      img: IMG2,
       description:
-        "Calculadora creada como parte de mi proceso de aprendizaje",
-      technologies: "React | CSS",
-      link: "https://calculadora-jet-kappa.vercel.app/",
-      github: "https://github.com/leofiorotto/calculadora",
+        "E-commerce realizado durante el curso de Desarrollo Web de Coderhouse",
+      technologies: "HTML | CSS | Bootstrap | SASS",
+      link: "https://leofiorotto.github.io/EntregaFinal-Fiorotto/",
+      github: "https://github.com/leofiorotto/EntregaFinal-Fiorotto",
+    },
+    {
+      id: 5,
+      title: "Consultoria",
+      img: IMG10,
+      description:
+        "Empresa Biztec Solutions - Consultoria de IT. Proyecto en conjunto con el equipo de Biztec Solutions",
+      technologies: "Astro | Tailwind",
+      link: "https://consultory.vercel.app/",
+      github: "https://github.com/leofiorotto/consultory",
     },
 
   ];
