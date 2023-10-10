@@ -29,26 +29,26 @@ const Portfolio = () => {
       github: "https://github.com/leofiorotto/tesla-landing",
     },
     {
-      id: 3,
+      id: 2,
       title: "Marketplace NFT",
       img: IMG3,
       description: "Marketplace NFT en proceso, actualmente en desarrollo durante el curso de React de Coderhouse",
-      technologies: "React | Vite | TypeScript",
+      technologies: "React | Vite | TypeScript | Firebase",
       link: "https://ecommerce-react-five-delta.vercel.app/",
       github: "https://github.com/leofiorotto/ecommerce-react",
     },
     {
-      id: 4,
+      id: 3,
       title: "Sunnyside agency",
       img: IMG9,
       description: "Los desafíos de Frontend Mentor lo ayudan a mejorar las habilidades mediante la creación de proyectos realistas.",
-      technologies: "React | Vite | TypeScript",
+      technologies: "HTML | CSS",
       link: "https://leofiorotto.github.io/sunnyside-landing/",
       github: "https://github.com/leofiorotto/sunnyside-landing",
     },
 
     {
-      id: 8,
+      id: 4,
       title: "Desafio Frontend Mentor",
       img: IMG7,
       description:
@@ -58,17 +58,17 @@ const Portfolio = () => {
       github: "https://github.com/leofiorotto/web3-digital-diary",
     },
     {
-      id: 10,
+      id: 5,
       title: "Huddle",
       img: IMG12,
       description:
         "Empresa dedicada a crear equipos de desarrollo",
-      technologies: "React | CSS",
+      technologies: "HTML | CSS",
       link: "https://leofiorotto.github.io/huddle/",
       github: "https://github.com/leofiorotto/huddle",
     },
     {
-      id: 9,
+      id: 6,
       title: "Componente de tarjetas de precios",
       img: IMG11,
       description:
@@ -78,32 +78,32 @@ const Portfolio = () => {
       github: "https://github.com/leofiorotto/price-card-component",
     },
     {
-      id: 6,
+      id: 7,
       title: "Lista de Tareas",
       img: IMG5,
       description:
         "Lista de tareas para que nunca olvides lo que tienes que hacer",
-      technologies: "React | CSS",
+      technologies: "React | Tailwind",
       link: "https://lista-tareas-seven.vercel.app/",
       github: "https://github.com/leofiorotto/listaTareas",
     },
 
     {
-      id: 2,
-      title: "E-commerce Digital-Coder",
+      id: 8,
+      title: "Clon de Spotify",
       img: IMG2,
       description:
-        "E-commerce realizado durante el curso de Desarrollo Web de Coderhouse",
-      technologies: "HTML | CSS | Bootstrap | SASS",
-      link: "https://leofiorotto.github.io/EntregaFinal-Fiorotto/",
-      github: "https://github.com/leofiorotto/EntregaFinal-Fiorotto",
+        "Clon de spotify a modo de práctica para reforzar mis habilidades",
+      technologies: "Astro | Tailwind | React",
+      link: "https://clon-spotify-navy.vercel.app/",
+      github: "https://github.com/leofiorotto/clon-spotify",
     },
     {
-      id: 5,
+      id: 9,
       title: "Consultoria",
       img: IMG10,
       description:
-        "Empresa Biztec Solutions - Consultoria de IT. Proyecto en conjunto con el equipo de Biztec Solutions",
+        "Empresa Biztek Solutions - Consultoria de tecnología",
       technologies: "Astro | Tailwind",
       link: "https://consultory.vercel.app/",
       github: "https://github.com/leofiorotto/consultory",
