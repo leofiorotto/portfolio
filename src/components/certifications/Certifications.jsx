@@ -5,6 +5,8 @@ import IMG2 from "../../assets/JS.png";
 import IMG3 from "../../assets/react.png";
 import IMG5 from "../../assets/frontend.png"
 import React from "react";
+import IMG6 from "../../assets/frontend-coder.png";
+import IMG7 from "../../assets/react.png";
 
 // Función Portfolio
 const Certifications = () => {
@@ -21,12 +23,17 @@ const Certifications = () => {
     },
     {
       id: 3,
-      img: IMG3,
-      link: "https://www.coderhouse.com/certificados/651149f2dfa4926652b7535a?lang",
+      img: IMG6,
+      link: "https://www.coderhouse.com/certificados/653028f98da4042772268500?lang=es",
+    },
+    {
+      id: 4,
+      img: IMG7,
+      link: "https://www.coderhouse.com/certificados/653028f98da404fe872684e9?lang=es",
     },
   
     {
-      id: 4,
+      id: 5,
       img: IMG5,
     },
    
